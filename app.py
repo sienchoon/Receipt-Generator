@@ -4,7 +4,7 @@ from renter import Rental
 from receipt import ReceiptGenerator
 
 #create a rental object from Rental class
-renter = Rental('Kevin', 450, 'Fortnightly')
+renter = Rental('Ms A So', 450, 'Fortnightly')
 
 #generate receipt from ReceiptGenerator class
 receipt = ReceiptGenerator.generate_receipt(renter)
